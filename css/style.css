@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 40px 10px 10px 10px;
+    width: 22cm;
+    min-height: 29.1cm;
+    background-color: white;
+}
+
+.name {
+    margin-bottom: 40px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 48pt;
+    font-weight: bold;
+    text-align: end;
+}
+
+.photo {
+    margin-bottom: 40px;
+}
+
+.photo > img {
+    width: 200px;
+    height: 200px;
+}
+
+.info-section {
+    margin-bottom: 20px;
+}
+
+.info-section h2 {
+    color: dodgerblue;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-list, .work-list {
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+.education-list {
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.work-list p, .work-list h3 {
+    margin-bottom: 15px;
+}
+
+.company-name {
+    color: orange;
+    font-size: 16pt;
+}
+
+.job-title {
+    color: darkblue;
+}
+
+.skills-list dt {
+    color: white;
+    background-color: darkgray;
+}
+
+.skills-list dd {
+    margin-left: 40px;
+}
